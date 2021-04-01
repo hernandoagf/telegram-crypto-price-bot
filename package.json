@@ -24,6 +24,7 @@
   "homepage": "https://github.com/hernandoagf/telegram-crypto-price-bot#readme",
   "dependencies": {
     "@aragon/connect-thegraph": "^0.7.0",
+    "cron": "^1.8.2",
     "dotenv": "^8.2.0",
     "graphql-tag": "^2.11.0",
     "node-fetch": "^2.6.1",
