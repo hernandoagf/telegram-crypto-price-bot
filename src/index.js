@@ -15,6 +15,9 @@ bot.start(async (ctx) => {
   chatId = (await ctx.getChat()).id
 
   priceMessageJob.start()
+  
+  ctx.reply('Counter started')
+  console.log(`Counter started on chat ${chatId}`)
 })
 
 const priceMessageJob = new CronJob('0 * * * *', async () => {
